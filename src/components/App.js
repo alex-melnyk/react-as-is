@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {withStyles} from "@material-ui/core/styles";
-import './App.css';
 import Header from './Header';
 import ToDoList from "./ToDoList";
 import Task from "../models/Task";

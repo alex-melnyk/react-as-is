@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {withStyles} from "@material-ui/core/styles";
-import {AppBar, Toolbar, IconButton} from "@material-ui/core";
+import {AppBar, IconButton, Toolbar} from "@material-ui/core";
 import {Menu} from "@material-ui/icons";
 
 /**
  * Header component.
  */
 class Header extends Component {
-    render () {
+    render() {
         return (
             <AppBar position="static">
                 <Toolbar>
@@ -15,7 +15,7 @@ class Header extends Component {
                         color="inherit"
                         aria-label="Menu"
                     >
-                        <Menu />
+                        <Menu/>
                     </IconButton>
                 </Toolbar>
             </AppBar>
